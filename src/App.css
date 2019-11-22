@@ -1,22 +1,28 @@
 .App {
-  text-align: center;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: #0d315a no-repeat center top;
 }
 
-.App-logo {
-  height: 40vmin;
+.MoviesBySearch {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  width: 100%;
 }
 
-.App-link {
-  color: #09d3ac;
+#root {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto !important;
+  color: white !important;
 }

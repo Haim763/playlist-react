@@ -1,0 +1,75 @@
+.single_track {
+  width: 300px !important;
+  -webkit-box-shadow: 0px 0px 13px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 13px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 13px -2px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  transition: ease-in-out .5s;
+  height:500px;
+  cursor: pointer;
+}
+
+.card-subtitle {
+  text-align: center;
+  line-height: normal;
+  margin: 0 0 5px;
+  font-size: 16px;
+  color: #24252e;
+}
+
+.card-title {
+  text-align: center;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 600;
+  color: #24272e;
+}
+
+.card:hover {
+  background: #d7d6d6;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-crop {
+  width: 300px;
+  max-height: 400px;
+  overflow: hidden
+}
+
+.card-img-top {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.more_information_icon {
+  color:rgb(70, 70, 189);
+  margin-right: 20px;
+  font-size: 23px;
+}
+
+.more_information_icon:hover {
+  color:blue
+}
+
+.delete_icon {
+  color: rgb(182, 9, 9);
+  font-size: 22px;
+}
+
+.delete_icon:hover {
+  color: red;
+}

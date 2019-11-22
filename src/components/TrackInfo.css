@@ -1,0 +1,16 @@
+.back_button {
+  font-size: 50px;
+  margin: 10px 0 10px 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.track_info_container {
+  color: white;
+  text-align:center;
+  /* display: flex; */
+}
+
+.lyrics {
+  white-space: pre;
+}

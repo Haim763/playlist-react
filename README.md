@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Assumptions and notes
+1. When developed, the API didn't returned src for album picture, so couldn't find the exact attribute to use, but put some guess in code. If no album picture exists, use placeholder.
+2. Added loader for better UI feeling.
+3. Couldn't see in the API the length of the tracks, so didn't add it to the project.
+5. On first load, the app will fetch some random tracks for a quick start.
+6. The information page (second page) shows lyrics, genre, and some basic info. I could've add much more, but this is just for demonstation.
+7. The API lacks data such as lyrics for most of the tracks that I tried. It means that the info page will mostly be empty.
+
 ## Available Scripts
 
 In the project directory, you can run:

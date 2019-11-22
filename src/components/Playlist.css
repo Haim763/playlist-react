@@ -1,0 +1,28 @@
+.playlist {
+  /* height: 100%; */
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+
+.add_track {
+  position: fixed;
+  z-index: 999;
+  bottom: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  border: 2.5px solid #cacaca;
+  color: white;
+  background: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fa-plus {
+  font-size: 25px;
+  margin: 13px 16px;
+}
